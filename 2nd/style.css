@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .get-certified {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    background: url('./img/shutterstock_401240461_optimized.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero h1 span {
+    color: #FFD700;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.certifications {
+    padding: 20px 50px;
+}
+
+.certification-buttons {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+
+.certification-buttons a {
+    padding: 4px;
+    background-color: gray;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.certification {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 11px;
+    border-radius: 5px;
+    display: inline-block;
+    
+    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.mission {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mission span {
+    font-weight: bold;
+}
+
+.sub-mission {
+    color: #FFD700;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content img {
+    max-width: 45%;
+    height: auto;
+}
+
+.value {
+    max-width: 600px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.value h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.value p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.value .feature {
+    margin-bottom: 10px;
+}
+
+.value .feature h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.value .feature p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.value-header h2 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.value-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.value p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.feature h3::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.value-header, .feature {
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.value-header:last-child, .feature:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.certifications-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #000;
+}
+
+.certification {
+    flex: 1;
+    margin: 0 20px;
+    position: relative;
+    color: #fff;
+}
+
+.certification img {
+    width: 100%;
+    height: auto;
+}
+
+.certification-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.certification-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.certification-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.explore-button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.newsletter {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.newsletter h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFD700;
+    color: #000;
+}
+
+.footer-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    min-width: 150px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-social a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
